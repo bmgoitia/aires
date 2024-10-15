@@ -1,0 +1,40 @@
+
+:root {
+  --black: #1d1d1e;
+  /* --font-size: 1.1rem; */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+
+@font-face {
+  font-family: 'HBold';
+  src: url('https://static.lavanguardia.com/css/fonts/v2/TiemposHeadline-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'HSemibold';
+  src: url('https://lavanguardia-github.github.io/tipos/TiemposHeadline-Semibold.woff2') format('woff');
+}
+
+
+@font-face {
+  font-family: 'TRegular';
+  src: url('https://static.lavanguardia.com/css/fonts/v2/TiemposText-Regular.woff2') format('woff2');
+}
